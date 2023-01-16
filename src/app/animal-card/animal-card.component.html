@@ -1,0 +1,8 @@
+<div class="animal-wrapper" *ngIf="cardInfo">
+  <img class="animal-images" [src]="cardInfo.url"/>
+  <div class="animal-card-text">
+    <span class="animal-card">for</span>
+    <p class="for-animals">{{ cardInfo.title }}</p>
+    <a href=""><div class="animal-card-button"></div></a>
+  </div>
+</div>

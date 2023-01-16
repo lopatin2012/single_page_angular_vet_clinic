@@ -1,0 +1,37 @@
+.animal-wrapper {
+  background: #ECF8FF;
+  width: 380px;
+  height: 380px;
+  border-radius: 30px;
+  padding-top: 1px;
+}
+
+.animal-card-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.for-animals {
+  font-size: 34px;
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+.animal-card-button {
+  background: url("../../assets/img/Arrow-animals-card.png");
+  width: 70px;
+  height: 70px;
+  margin-top: -70px;
+  margin-left: 220px;
+}
+
+.animal-images {
+  display: block;
+  width: 190px;
+  height: 284px;
+  margin: -60px auto 0;
+
+}
+

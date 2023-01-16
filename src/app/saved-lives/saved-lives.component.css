@@ -1,0 +1,157 @@
+.board-saved-lives {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: auto;
+}
+
+.board-saved-lives-left {
+}
+
+.saved-lives-dog1 {
+  background: url("../../assets/img/Lives-dog1.png");
+  margin-left: 60px;
+  width: 180px;
+  height: 180px;
+}
+
+.saved-lives-icon1 {
+  position: absolute;
+  background: url("../../assets/img/Lives-icon1.png") no-repeat;
+  width: 50px;
+  height: 50px;
+  left: 390px;
+  top: 1570px
+}
+
+.saved-lives-icon2 {
+  position: absolute;
+  background: url("../../assets/img/Lives-icon2.png");
+  width: 50px;
+  height: 50px;
+  left: 20px;
+  top: 1860px
+}
+
+.saved-lives-cat1 {
+  position: absolute;
+  background: url("../../assets/img/Lives-cat1.png") no-repeat;
+  width: 120px;
+  height: 120px;
+  top: 1770px;
+  left: 190px;
+}
+
+.saved-lives-icon3 {
+  position: absolute;
+  background: url("../../assets/img/Lives-icon3.png");
+  width: 50px;
+  height: 50px;
+  top: 2020px;
+  left: 150px
+}
+
+.saved-lives-bird1 {
+  position: absolute;
+  background: url("../../assets/img/Lives-bird1.png");
+  width: 160px;
+  height: 160px;
+  top: 1980px;
+  left: 320px
+}
+
+.board-saved-lives-mid {
+  display: grid;
+  height: 600px;
+}
+
+.saved-lives-icon4 {
+  background: url("../../assets/img/Lives-icon4.png");
+  width: 50px;
+  height: 50px;
+  margin-left: 300px;
+}
+
+.board-saved-lives-mid > h2 {
+  font-size: 78px;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: -20px;
+}
+
+.board-saved-lives-mid > p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.saved-lives-read-reviews {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: #FFF;
+  margin-top: 10px;
+}
+
+.lives-button {
+  background: #00A3FF;
+  margin-bottom: 150px;
+  padding: 10px 20px 10px 10px;
+  height: 60px;
+  width: 200px;
+  margin-left: 220px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.saved-lives-read-reviews {
+  background: #00A3FF;
+  margin-left: 13px;
+}
+
+.board-saved-lives-right {
+
+}
+
+.saved-lives-cat2 {
+  position: absolute;
+  background: url("../../assets/img/Lives-cat2.png");
+  width: 180px;
+  height: 180px;
+  top: 1530px;
+  left: 1400px;
+}
+
+.saved-lives-bird2 {
+  position: absolute;
+  background: url("../../assets/img/Lives-bird2.png") no-repeat;
+  width: 64px;
+  height: 100px;
+  top: 1630px;
+  left: 1840px;
+}
+
+.saved-lives-icon5 {
+  position: absolute;
+  background: url("../../assets/img/Lives-icon5.png");
+  width: 50px;
+  height: 50px;
+  top: 1800px;
+  left: 1400px;
+}
+
+.saved-lives-dog2 {
+  position: absolute;
+  background: url("../../assets/img/Lives-dog2.png");
+  width: 140px;
+  height: 140px;
+  top: 1840px;
+  left: 1540px;
+}
+
+.saved-lives-dog3 {
+  position: absolute;
+  background: url("../../assets/img/Lives-dog3.png");
+  width: 160px;
+  height: 160px;
+  top: 1950px;
+}
