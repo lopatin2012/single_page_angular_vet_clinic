@@ -1,0 +1,23 @@
+.advantages-card-wrapper {
+  width: 300px;
+  align-items:center;
+  text-align: center;
+}
+
+.advantages-card-img {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.advantages-card-text {
+  display: block;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.advantages-card-text-about {
+  display: block;
+  font-size: 14px;
+}

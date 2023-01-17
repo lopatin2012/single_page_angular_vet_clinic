@@ -1,17 +1,30 @@
-.board-saved-lives {
+.board-saved-lives-mid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
-.board-saved-lives-left {
+.board-saved-lives-mid > h2 {
+  font-size: 65px;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: -50px;
+}
+
+.board-saved-lives-mid > p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 60px;
+  color: rgba(1, 15, 1, 0.5);
 }
 
 .saved-lives-dog1 {
+  position: absolute;
   background: url("../../assets/img/Lives-dog1.png");
-  margin-left: 60px;
   width: 180px;
   height: 180px;
+  left: 60px;
+  top: 1760px
 }
 
 .saved-lives-icon1 {
@@ -19,8 +32,9 @@
   background: url("../../assets/img/Lives-icon1.png") no-repeat;
   width: 50px;
   height: 50px;
-  left: 390px;
-  top: 1570px
+  top: 1824px;
+  left: 360px;
+
 }
 
 .saved-lives-icon2 {
@@ -29,7 +43,7 @@
   width: 50px;
   height: 50px;
   left: 20px;
-  top: 1860px
+  top: 2100px
 }
 
 .saved-lives-cat1 {
@@ -37,8 +51,8 @@
   background: url("../../assets/img/Lives-cat1.png") no-repeat;
   width: 120px;
   height: 120px;
-  top: 1770px;
-  left: 190px;
+  top: 2020px;
+  left: 180px;
 }
 
 .saved-lives-icon3 {
@@ -46,7 +60,7 @@
   background: url("../../assets/img/Lives-icon3.png");
   width: 50px;
   height: 50px;
-  top: 2020px;
+  top: 2280px;
   left: 150px
 }
 
@@ -55,34 +69,18 @@
   background: url("../../assets/img/Lives-bird1.png");
   width: 160px;
   height: 160px;
-  top: 1980px;
-  left: 320px
-}
-
-.board-saved-lives-mid {
-  display: grid;
-  height: 600px;
+  top: 2240px;
+  left: 330px
 }
 
 .saved-lives-icon4 {
   background: url("../../assets/img/Lives-icon4.png");
   width: 50px;
   height: 50px;
-  margin-left: 300px;
+  margin-left: 940px;
+  margin-bottom: 10px;
 }
 
-.board-saved-lives-mid > h2 {
-  font-size: 78px;
-  text-align: center;
-  font-weight: 900;
-  margin-bottom: -20px;
-}
-
-.board-saved-lives-mid > p {
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 40px;
-}
 
 .saved-lives-read-reviews {
   text-align: center;
@@ -94,18 +92,19 @@
 
 .lives-button {
   background: #00A3FF;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
+  margin-top: 50px;
   padding: 10px 20px 10px 10px;
   height: 60px;
   width: 200px;
-  margin-left: 220px;
+  margin-left: 850px;
   border-radius: 30px;
   text-decoration: none;
 }
 
 .saved-lives-read-reviews {
   background: #00A3FF;
-  margin-left: 13px;
+  margin-left: 5px;
 }
 
 .board-saved-lives-right {
@@ -117,17 +116,17 @@
   background: url("../../assets/img/Lives-cat2.png");
   width: 180px;
   height: 180px;
-  top: 1530px;
-  left: 1400px;
+  top: 1800px;
+  right: 190px;
 }
 
 .saved-lives-bird2 {
   position: absolute;
   background: url("../../assets/img/Lives-bird2.png") no-repeat;
-  width: 64px;
+  width: 68px;
   height: 100px;
-  top: 1630px;
-  left: 1840px;
+  top: 1900px;
+  left: 1837px;
 }
 
 .saved-lives-icon5 {
@@ -135,7 +134,7 @@
   background: url("../../assets/img/Lives-icon5.png");
   width: 50px;
   height: 50px;
-  top: 1800px;
+  top: 2075px;
   left: 1400px;
 }
 
@@ -144,8 +143,8 @@
   background: url("../../assets/img/Lives-dog2.png");
   width: 140px;
   height: 140px;
-  top: 1840px;
-  left: 1540px;
+  top: 2120px;
+  right: 80px;
 }
 
 .saved-lives-dog3 {
@@ -153,5 +152,7 @@
   background: url("../../assets/img/Lives-dog3.png");
   width: 160px;
   height: 160px;
-  top: 1950px;
+  top: 2220px;
+  right: 300px;
+
 }

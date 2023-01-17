@@ -8,6 +8,11 @@ import { MainScreanComponent } from './main-screan/main-screan.component';
 import { ServicesAnimalComponent } from './services-animal/services-animal.component';
 import { AnimalCardComponent } from './animal-card/animal-card.component';
 import { SavedLivesComponent } from './saved-lives/saved-lives.component';
+import { AboutTextComponent } from './about-text/about-text.component';
+import { ServicesTextComponent } from './services-text/services-text.component';
+import { AdvantagesTextComponent } from './advantages-text/advantages-text.component';
+import { AdvantagesCardComponent } from './advantages-card/advantages-card.component';
+import { AdvantagesListComponent } from './advantages-list/advantages-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { SavedLivesComponent } from './saved-lives/saved-lives.component';
     MainScreanComponent,
     ServicesAnimalComponent,
     AnimalCardComponent,
-    SavedLivesComponent
+    SavedLivesComponent,
+    AboutTextComponent,
+    ServicesTextComponent,
+    AdvantagesTextComponent,
+    AdvantagesCardComponent,
+    AdvantagesListComponent
   ],
   imports: [
     BrowserModule,

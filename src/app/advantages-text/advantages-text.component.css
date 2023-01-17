@@ -1,0 +1,21 @@
+.flex-advantages-text {
+  display: flex;
+  font-weight: bolder;
+  justify-content: space-between;
+  align-content: center;
+  margin: 140px auto 160px;
+
+}
+
+.flex-advantages-text-transparent {
+  font-size: 42px;
+  color: #FFFFFF;
+  -webkit-text-stroke: 1px rgba(200, 200, 200, 0.8);
+}
+
+.flex-advantages-text-black {
+  font-size: 40px;
+  font-weight: 750;
+  color: black;
+  margin: 0 5px
+}

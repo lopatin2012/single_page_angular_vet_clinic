@@ -1,0 +1,7 @@
+<div class="advantages-card-wrapper" *ngIf="AdvantagesInfo">
+  <img class="advantages-card-img" [src]="AdvantagesInfo.url" />
+  <div class="advantages-card-text-list">
+    <span class="advantages-card-text">{{ AdvantagesInfo.title }}</span>
+    <span class="advantages-card-text-about"> {{ AdvantagesInfo.text }}</span>
+  </div>
+</div>
