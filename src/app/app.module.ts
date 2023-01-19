@@ -13,6 +13,7 @@ import { ServicesTextComponent } from './services-text/services-text.component';
 import { AdvantagesTextComponent } from './advantages-text/advantages-text.component';
 import { AdvantagesCardComponent } from './advantages-card/advantages-card.component';
 import { AdvantagesListComponent } from './advantages-list/advantages-list.component';
+import { HearYouComponent } from './hear-you/hear-you.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AdvantagesListComponent } from './advantages-list/advantages-list.compo
     ServicesTextComponent,
     AdvantagesTextComponent,
     AdvantagesCardComponent,
-    AdvantagesListComponent
+    AdvantagesListComponent,
+    HearYouComponent
   ],
   imports: [
     BrowserModule,

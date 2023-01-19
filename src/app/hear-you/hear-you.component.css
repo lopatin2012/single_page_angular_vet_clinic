@@ -1,0 +1,54 @@
+.hear-you-wrapper {
+  width: auto;
+  padding-top: 1px;
+  height: 640px;
+  margin-top: 140px;
+  background: #00A3FF;
+  justify-content: left;
+  align-items: center;
+}
+
+.hear-you-center-right {
+  margin-top: 172px;
+  margin-left: 140px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+}
+
+.hear-you-center-right > h2 {
+  color: #FFFFFF;
+  font-size: 65px;
+  font-weight: 900;
+}
+
+.hear-you-list-flex {
+  display: flex;
+  margin-left: 140px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.hear-you-list-flex > input {
+  width: 280px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  margin: 0 5px;
+  font-size: 18px;
+  padding-left: 24px;
+  outline: none;
+}
+
+.hear-you-button {
+  width: 229px;
+  height: 60px;
+  background: #FFCD1E;
+  border-radius: 30px;
+  border: none;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 550;
+  margin: 0 5px;
+}
