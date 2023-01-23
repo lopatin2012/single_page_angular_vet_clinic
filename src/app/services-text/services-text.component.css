@@ -8,13 +8,13 @@
 }
 
 .flex-services-text-transparent {
-  font-size: 42px;
+  font-size: 2vw;
   color: #FFFFFF;
   -webkit-text-stroke: 1px rgba(200, 200, 200, 0.8);
 }
 
 .flex-services-text-black {
-  font-size: 40px;
+  font-size: 2vw;
   font-weight: 750;
   color: black;
   margin: 0 5px

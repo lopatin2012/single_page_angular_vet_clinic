@@ -1,11 +1,13 @@
 .hear-you-wrapper {
-  width: auto;
+  display: flex;
   padding-top: 1px;
+  padding-left: 150px;
   height: 640px;
   margin-top: 140px;
-  background: #00A3FF;
+  background: #ECF8FF;
   justify-content: left;
-  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
 }
 
 .hear-you-center-right {
@@ -18,9 +20,9 @@
 }
 
 .hear-you-center-right > h2 {
-  color: #FFFFFF;
   font-size: 65px;
   font-weight: 900;
+  line-height: 78px;
 }
 
 .hear-you-list-flex {
@@ -42,13 +44,23 @@
 }
 
 .hear-you-button {
+  display: flex;
   width: 229px;
   height: 60px;
-  background: #FFCD1E;
+  background: #00A3FF;
   border-radius: 30px;
   border: none;
   color: #FFF;
   font-size: 18px;
   font-weight: 550;
   margin: 0 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hear-you-img {
+  margin: 17px -15px auto 25px;
+  background: url("../../assets/img/icon20.svg") no-repeat;
+  width: 32px;
+  height: 32px;
 }

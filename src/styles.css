@@ -163,3 +163,7 @@ h1 {
   font-size: 65px;
   line-height: 78px;
 }
+
+html {
+  scroll-behavior:smooth;
+}

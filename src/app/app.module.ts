@@ -14,6 +14,8 @@ import { AdvantagesTextComponent } from './advantages-text/advantages-text.compo
 import { AdvantagesCardComponent } from './advantages-card/advantages-card.component';
 import { AdvantagesListComponent } from './advantages-list/advantages-list.component';
 import { HearYouComponent } from './hear-you/hear-you.component';
+import { FooterMenuComponent } from './footer-menu/footer-menu.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -28,11 +30,13 @@ import { HearYouComponent } from './hear-you/hear-you.component';
     AdvantagesTextComponent,
     AdvantagesCardComponent,
     AdvantagesListComponent,
-    HearYouComponent
+    HearYouComponent,
+    FooterMenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule
 
   ],
   providers: [],

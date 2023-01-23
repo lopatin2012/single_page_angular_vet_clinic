@@ -1,6 +1,13 @@
-<div class="animal-wrapper" *ngIf="cardInfo">
-  <img class="animal-images" [src]="cardInfo.url"/>
-    <span class="animal-card">for</span>
-    <p class="for-animals">{{ cardInfo.title }}</p>
-    <a href=""><div class="animal-card-button"></div></a>
+<div class="animal-card-blocks">
+  <div class="animal-wrapper" *ngIf="cardInfo">
+    <img class="animal-images" [src]="cardInfo.url" alt="animals"/>
+    <div class="animal-block-text" >
+    <span class="animal-card-for">for</span>
+      <p class="for-animals-p">{{ cardInfo.title }}</p>
+      <a class="animal-card-button-a" href="">
+        <div class="animal-card-button">
+          <img class="animal-card-image" src="../../assets/img/Arror.svg">
+        </div></a>
+    </div>
+  </div>
 </div>
